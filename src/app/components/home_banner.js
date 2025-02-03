@@ -6,7 +6,7 @@ export default function HomeBanner() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
             <div className="relative z-10 h-full">
                 {/* home banner content */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-8 px-10 md:px-20 h-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-8 px-8 md:px-20 h-full">
                     <div className="flex flex-col gap-6 w-full md:pb-16 pt-4 max-w-[500px]">
                         <div className="border-y-[2px] border-primary px-4 py-2">
                             <h2 className="text-white text-4xl font-bold md:text-[48px] md:text-[52px]/[60px]">Lo mejor de crypto en un solo lugar.</h2>
