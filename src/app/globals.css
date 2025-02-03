@@ -3,19 +3,55 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #474747;
+  --primary: #eabc4d;
+  --secondary: #efebe7;
+  --grey: #5b5b5c;
+  --white: #ffffff;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/fonts/FuturaCyrillicLight.ttf') format('truetype');
+  font-weight: 300; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/fonts/FuturaCyrillicMedium.ttf') format('truetype');
+  font-weight: 500; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/fonts/FuturaCyrillicBold.ttf') format('truetype');
+  font-weight: 700; 
+  font-style: normal;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #474747;
+    --primary: #eabc4d;
+    --secondary: #efebe7;
+    --grey: #5b5b5c;
+    --white: #ffffff;
   }
 }
 
 body {
-  color: var(--foreground);
+  color: var(--white);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  font-size: 24px;
+}
+
+button {
+  font-family: 'Futura PT', sans-serif;
+  font-weight: 700;
 }
