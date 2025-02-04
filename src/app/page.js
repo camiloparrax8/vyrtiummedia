@@ -5,6 +5,7 @@ import CryptoCarousel from "./components/crypto_carousel";
 import BlogSection from "./components/blog_section";
 import DrivingSection from "./components/driving_section";
 import SeniorSection from "./components/senior_section";
+import ReviewsSection from "./components/reviews_section";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <BlogSection />
       <DrivingSection />
       <SeniorSection />
-  
+      <ReviewsSection />
     </>
   );
 }
