@@ -3,7 +3,7 @@ import Header from "./components/header";
 import HomeBanner from "./components/home_banner";
 import AboutCxp from "./components/about_cxp";
 import CryptoCarousel from "./components/crypto_carousel";
-import BlogSection from "./components/blog-section";
+import BlogSection from "./components/blog_section";
 
 export default function Home() {
   return (
