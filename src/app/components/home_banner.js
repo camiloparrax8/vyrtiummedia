@@ -13,13 +13,13 @@ export default function HomeBanner() {
                                 <div className="absolute left-0 top-0 h-1/2 w-[2px] bg-primary">
                                     <div className="absolute bottom-0 left-0 w-2.5 h-2.5 bg-primary rounded-full translate-x-[-50%]" />
                                 </div>
-                                <h2 className="text-white text-4xl font-black md:text-[56px]/[60px]">Lo mejor de crypto en un solo lugar.</h2>
+                                <h2 className="text-white text-[28px] font-black md:text-[56px]/[60px]">Lo mejor de crypto en un solo lugar.</h2>
                                 <div className="absolute right-0 bottom-0 h-1/2 w-[2px] bg-primary">
                                     <div className="absolute top-0 right-0 w-2.5 h-2.5 bg-primary rounded-full translate-x-[50%]" />
                                 </div>
                         </div>
-                        <p className="text-white text-[28px]/[30px] backdrop-blur p-4 rounded-lg">En CXP, accede a un equipo de expertos, herramientas especializadas, formación en criptomonedas y una comunidad activa, todo lo que necesitas en un solo lugar.</p>
-                        <button className="bg-primary text-white text-[28px] px-2 py-[2px] rounded-lg w-[150px] ml-auto">Registrate</button>
+                        <p className="text-white md:text-[28px]/[30px] text-[18px]/[25px] backdrop-blur p-4 rounded-lg">En CXP, accede a un equipo de expertos, herramientas especializadas, formación en criptomonedas y una comunidad activa, todo lo que necesitas en un solo lugar.</p>
+                        <button className="bg-primary text-white text-[20px]  md:text-[28px] px-2 md:py-[2px] rounded-lg md:w-[150px] w-[120px] ml-auto">Registrate</button>
                     </div>
                     <div className="relative place-self-center md:place-self-end">
                         <Image src="/images/person-banner.png" alt="Banner" width={390} height={390} />
