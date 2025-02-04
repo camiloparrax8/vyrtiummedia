@@ -1,7 +1,6 @@
 import Card from "./card";
 import SectionTitle from "./section-title";
 
-
 export default function BlogSection() {
 
     const blogList = [
@@ -36,7 +35,7 @@ export default function BlogSection() {
 
       
     return (
-        <div className="flex flex-col h-full mt-8 mx-8 md:mx-20">
+        <div className="flex flex-col h-full mt-8 mx-8 md:mx-20 pb-12">
             <SectionTitle
                 icon_url="/icons/profit.png"
                 title="Aprender a operar cryptos nunca había sido tan fácil"
