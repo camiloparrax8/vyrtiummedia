@@ -1,6 +1,11 @@
+'use client';
 import Image from "next/image";
 
 export default function Footer() {
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
 
     return (
         <footer className="flex flex-col text-white md:h-[400px] mt-4">
@@ -28,40 +33,48 @@ export default function Footer() {
                     <button className="bg-primary font-medium text-[18px] md:text-[24px] px-4 py-[4px] rounded-lg border-primary border-[1px] md:w-full w-[50%]">Subscribete</button>
                 </form>
 
+                <div className="flex gap-4 justify-center items-center md:col-span-3">
+                <div className="grid md:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2 pl-6 md:pl-0">
-                    <h2 className="text-primary font-bold text-[32px]">About Us</h2>
-                    <div className="flex items-center justify-end w-[100%] mt-4 md:mt-0 flex-nowrap">
-                        <div className="flex-1 border-t-2 border-primary"></div>
-                        <div className="w-2.5 h-2.5 bg-primary rounded-full shrink-0"></div>
+                        <h2 className="text-primary font-bold text-[28px]">About Us</h2>
+                        <div className="flex items-center justify-end w-[100%] mt-4 md:mt-0 flex-nowrap">
+                            <div className="flex-1 border-t-2 border-primary"></div>
+                            <div className="w-2.5 h-2.5 bg-primary rounded-full shrink-0"></div>
+                        </div>
+                        <p className="text-[14px]/[16px]">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                     </div>
-                    <p className="text-[14px]/[16px]">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+                    <div className="flex flex-col gap-2 pl-6 md:pl-0">
+                        <h2 className="text-primary font-bold text-[28px]">Services</h2>
+                        <div className="flex items-center justify-end w-[100%] mt-4 md:mt-0 flex-nowrap">
+                            <div className="flex-1 border-t-2 border-primary"></div>
+                            <div className="w-2.5 h-2.5 bg-primary rounded-full shrink-0"></div>
+                        </div>
+                        <div>
+                            <p className="text-[18px]/[22px]">CXP AI</p>
+                            <p className="text-[18px]/[22px]">CXP Academy</p>
+                            <p className="text-[18px]/[22px]">Trading room</p>
+                        </div>
+                    </div>
+                    
+                    <div className="flex flex-col gap-2 pl-6 md:pl-0">
+                        <h2 className="text-primary font-bold text-[28px]">CXP Blog</h2>
+                        <div className="flex items-center justify-end w-[100%] mt-4 md:mt-0 flex-nowrap">
+                            <div className="flex-1 border-t-2 border-primary"></div>
+                            <div className="w-2.5 h-2.5 bg-primary rounded-full shrink-0"></div>
+                        </div>
+                        <div>
+                            <p className="text-[18px]/[22px]">Guides</p>
+                            <p className="text-[18px]/[22px]">Trading Inside</p>
+                            <p className="text-[18px]/[22px]">E-books</p>
+                            <p className="text-[18px]/[22px]">Courses</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div className="flex flex-col gap-2 pl-6 md:pl-0">
-                    <h2 className="text-primary font-bold text-[32px]">Services</h2>
-                    <div className="flex items-center justify-end w-[100%] mt-4 md:mt-0 flex-nowrap">
-                        <div className="flex-1 border-t-2 border-primary"></div>
-                        <div className="w-2.5 h-2.5 bg-primary rounded-full shrink-0"></div>
-                    </div>
-                    <div>
-                        <p className="text-[18px]/[22px]">CXP AI</p>
-                        <p className="text-[18px]/[22px]">CXP Academy</p>
-                        <p className="text-[18px]/[22px]">Trading room</p>
-                    </div>
-                </div>
-                
-                <div className="flex flex-col gap-2 pl-6 md:pl-0">
-                    <h2 className="text-primary font-bold text-[32px]">CXP Blog</h2>
-                    <div className="flex items-center justify-end w-[100%] mt-4 md:mt-0 flex-nowrap">
-                        <div className="flex-1 border-t-2 border-primary"></div>
-                        <div className="w-2.5 h-2.5 bg-primary rounded-full shrink-0"></div>
-                    </div>
-                    <div>
-                        <p className="text-[18px]/[22px]">Guides</p>
-                        <p className="text-[18px]/[22px]">Trading Inside</p>
-                        <p className="text-[18px]/[22px]">E-books</p>
-                        <p className="text-[18px]/[22px]">Courses</p>
-                    </div>
+                <button className="bg-primary px-4 py-6 rounded-lg mr-4 md:mr-0" onClick={scrollToTop}>
+                    <Image src="/icons/arrowup.png" alt="arrow" width={200} height={200} className="md:w-[300px]"></Image>
+                </button>
                 </div>
             </div>
 
