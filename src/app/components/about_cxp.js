@@ -4,8 +4,8 @@ export default function AboutCxp() {
     return (    
         <div className="grid grid-cols-1 md:grid-cols-2 h-full mt-8 mx-8 md:mx-20 border-white border-[1px] rounded-2xl overflow-hidden" >
             <div className="relative h-full min-h-[500px]">
-                <Image src="/images/trade.png" alt="trade" width={1000} height={1000} className="absolute top-[0%] md:top-[-2%] left-[-65%] md:left-[-30%] max-w-[900] md:max-w-[1000]" />
-                <Image src="/images/women.png" alt="women" width={1200} height={1200} className="absolute bottom-[0] left-[-55%] md:left-[-8%] max-w-[1050] md:max-w-[1200]" />
+                <Image src="/images/trade.png" alt="trade" width={1000} height={1000} className="absolute top-[0%] md:top-[-2%] left-[-65%] md:left-[-30%] max-w-[900px] md:max-w-[1000px]" />
+                <Image src="/images/women.png" alt="women" width={1200} height={1200} className="absolute bottom-[0] left-[-55%] md:left-[-8%] max-w-[1050px] md:max-w-[1200px]" />
             </div>
             <div className="flex flex-col gap-4 w-full py-8 md:py-16 px-8 mx:px-16 md:pl-0">
                 <div className="flex gap-2 md:gap-4 p-2 items-start">
