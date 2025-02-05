@@ -8,7 +8,7 @@ export default function HomeBanner() {
     const [isHovered, setIsHovered] = useState(false);
 
     return (    
-        <div className="relative w-ful h-full md:h-[540px] bg-cover bg-center bg-no-repeat bg-[url('/images/home-banner.png')]">
+        <div className="relative w-ful h-full md:h-[540px] bg-cover bg-center bg-no-repeat bg-[url('/images/home-banner.webp')]">
             <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
             <div className="relative z-10 h-full">
                 {/* home banner content */}
@@ -27,7 +27,7 @@ export default function HomeBanner() {
                         <button className="bg-primary text-white text-[20px]  md:text-[28px] px-2 md:py-[2px] rounded-lg md:w-[150px] w-[120px] ml-auto">Registrate</button>
                     </div>
                     <div className="relative place-self-center md:place-self-end">
-                        <Image src="/images/person-banner.png" alt="Banner" width={390} height={390} />
+                        <Image src="/images/person-banner.webp" alt="Banner" width={390} height={390} />
                         {
                             isHovered === false && (
                                 <div 
