@@ -65,8 +65,8 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="bg-primary py-[30px] px-[36px]">
-                <p className="text-grey text-[14px] md:text-[16px]">DESIGNED BY CXP CORP 2025 /ALL RIGTHS RESERVED</p>
+            <div className="bg-primary py-6 md:py-[30px] px-[36px]">
+                <p className="text-grey text-[12px] md:text-[16px]">DESIGNED BY CXP CORP 2025 /ALL RIGTHS RESERVED</p>
             </div>
         </footer>
     )                
