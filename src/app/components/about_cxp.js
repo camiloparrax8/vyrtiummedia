@@ -11,9 +11,9 @@ export default function AboutCxp() {
     return (    
         <div className="grid grid-cols-1 md:grid-cols-2 h-full mt-8 mx-8 md:mx-20 border-white border-[1px] rounded-2xl overflow-hidden" >
             <div className="relative min-h-[500px]">
-                <Image src="/images/trade.png" alt="trade" width={1000} height={1000} className="absolute top-[0%] md:top-[-2%] left-[-85%] md:left-[-30%] max-w-[900px] md:max-w-[1000px]" />
+                <Image src="/images/trade.png" alt="trade" width={1000} height={1000} className="absolute top-[0%] md:top-[-2%] left-[-70%] md:left-[-30%] max-w-[900px] md:max-w-[1000px]" />
                 
-                <div className="flex items-end absolute bottom-[0] left-[-55%] md:left-[-10%] ">
+                <div className="flex items-end absolute bottom-[0] left-[-40%] md:left-[-10%] ">
                     <Image 
                         src="/images/women.png" 
                         alt="women" 
