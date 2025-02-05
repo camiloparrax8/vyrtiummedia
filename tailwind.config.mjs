@@ -18,12 +18,18 @@ export default {
         futura: ["Futura", "sans-serif"],
       },  animation: {
         marquee: "marquee 20s linear infinite",
+        scroll: "scroll 5s linear infinite",
       },
       keyframes: {
         marquee: {
           from: { transform: "translateX(0%)" },
           to: { transform: "translateX(-100%)" },
-        },}
+        },
+        scroll: {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-50%)" },
+        },
+      }
       
     },
   },
