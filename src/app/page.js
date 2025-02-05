@@ -8,7 +8,6 @@ import SeniorSection from "./components/senior_section";
 import ReviewsSection from "./components/reviews_section";
 import AboutCxpTwo from "./components/about_cxp_two";
 import Footer from "./components/footer";
-
 export default function Home() {
   return (
     <>

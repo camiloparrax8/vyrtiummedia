@@ -27,7 +27,7 @@ export default function HomeBanner() {
                         <button className="bg-primary text-white text-[20px]  md:text-[28px] px-2 md:py-[2px] rounded-lg md:w-[150px] w-[120px] ml-auto">Registrate</button>
                     </div>
                     <div className="relative place-self-center md:place-self-end">
-                        <Image src="/images/person-banner.webp" alt="Banner" width={390} height={390} />
+                        <Image src="/images/person-banner.webp" priority alt="Banner" width={390} height={390} />
                         {
                             isHovered === false && (
                                 <div 
