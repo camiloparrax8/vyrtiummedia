@@ -38,8 +38,8 @@ export default function SeniorSection() {
         <div className="flex flex-col h-full mt-8 mx-8 md:mx-20">
             <SectionTitle
                 icon_url="/icons/daimond.png"
-                title="Aprender y operar con nuestros expertos"
-                highlight="Aprender y operar"
+                title="Aprende y operar con nuestros expertos"
+                highlight="Aprende y operar"
             ></SectionTitle>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[90vw] mx-auto bg-red">
                 {
