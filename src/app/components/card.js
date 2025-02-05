@@ -4,7 +4,13 @@ export default function Card({title, content, image}) {
     return (
         <div className="bg-grey border-[1px] border-white rounded-lg overflow-hidden shadow-lg">
             <div className="relative h-60">
-                <Image src={image} alt={title} layout="fill" objectFit="cover"/>
+                <Image 
+                    src={image} 
+                    alt={title} 
+                    fill 
+                    style={{ objectFit: "cover" }} 
+                />
+
                 <div className="absolute bottom-2 right-2 flex gap-2">
                     <button className="backdrop-blur-md bg-black/10 text-white text-xs px-3 py-1 rounded-lg flex items-center gap-1">
                         <Image  src="/icons/icon-supertrade.svg" alt="Super trade icon" width={11} height={11}/>
