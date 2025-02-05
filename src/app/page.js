@@ -8,18 +8,35 @@ import SeniorSection from "./components/senior_section";
 import ReviewsSection from "./components/reviews_section";
 import AboutCxpTwo from "./components/about_cxp_two";
 import Footer from "./components/footer";
+
 export default function Home() {
   return (
     <>
       <Header />
-      <HomeBanner />
-      <CryptoCarousel />
-      <AboutCxp />
-      <BlogSection />
-      <DrivingSection />
-      <SeniorSection />
-      <ReviewsSection />
-      <AboutCxpTwo />
+      <section id="home">
+        <HomeBanner />
+      </section>
+      <section id="crypto-carousel">
+        <CryptoCarousel />
+      </section>
+      <section id="about-cxp">
+        <AboutCxp />
+      </section>
+      <section id="blog">
+        <BlogSection />
+      </section>
+      <section id="driving">
+        <DrivingSection />
+      </section>
+      <section id="senior">
+        <SeniorSection />
+      </section>
+      <section id="reviews">
+        <ReviewsSection />
+      </section>
+      <section id="about-cxp-two">
+        <AboutCxpTwo />
+      </section>
       <Footer />
     </>
   );
