@@ -1,7 +1,7 @@
 
 import Image from "next/image";
-import Title from "./title";
-import HoverIconsAbout from "./hover_icon_about";
+import Title from "../components/title";
+import HoverIconsAbout from "../components/hover_icon_about";
 
 export default function AboutCxp() {
 

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Title from "./title";
+import Title from "../components/title";
 
 export default function ReviewsSection() {
     return (    

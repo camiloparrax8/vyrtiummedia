@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Title from "./title"; 
-import VideoCarousel from "./video_carousel";
+import Title from "../components/title"; 
+import VideoCarousel from "../components/video_carousel";
 export default function AboutCxpTwo() {
     return (    
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 h-full mt-8 mx-8 md:mx-20 border-white border-[1px] rounded-2xl overflow-hidden" >

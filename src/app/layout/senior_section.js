@@ -1,8 +1,7 @@
-import Card from "./card";
-import SectionTitle from "./section-title";
+import Card from "../components/card";
+import SectionTitle from "../components/section-title";
 
-
-export default function BlogSection() {
+export default function SeniorSection() {
 
     const blogList = [
         {
@@ -10,27 +9,27 @@ export default function BlogSection() {
             title: "Lorem ipsum dolor sit amet.",
             content:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
-            image: "/images/card1.jpg",
+            image: "/images/senior-one.jpeg",
         },
         {
             id: 2,
             title: "Lorem ipsum dolor sit amet.",
             content:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
-            image: "/images/card2.jpg",
+            image: "/images/senior-two.jpeg",
         },
         {
             id: 3,
             title: "Lorem ipsum dolor sit amet.",
             content:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
-            image: "/images/card3.jpg",
+            image: "/images/senior-three.jpeg",
         },
         {
             id: 4,
             title: "Lorem ipsum dolor sit amet.",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
-            image: "/images/card4.jpg",
+            image: "/images/senior-four.jpeg",
         },
       ];
 
@@ -38,9 +37,9 @@ export default function BlogSection() {
     return (
         <div className="flex flex-col h-full mt-8 mx-8 md:mx-20">
             <SectionTitle
-                icon_url="/icons/profit.png"
-                title="Aprender a operar cryptos nunca había sido tan fácil"
-                highlight="operar cryptos"
+                icon_url="/icons/daimond.png"
+                title="Aprende y operar con nuestros expertos"
+                highlight="Aprende y operar"
             ></SectionTitle>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[90vw] mx-auto bg-red">
                 {

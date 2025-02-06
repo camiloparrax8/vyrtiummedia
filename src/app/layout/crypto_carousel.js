@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import useSWR from "swr";
-import Loader from "./loader";
+import Loader from "../components/loader";
 
 
 const fetcher = async (url) => {

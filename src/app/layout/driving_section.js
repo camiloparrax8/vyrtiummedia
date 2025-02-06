@@ -1,4 +1,4 @@
-import Title from "./title"; 
+import Title from "../components/title"; 
 export default function DrivingSection() {
     return (    
         <div className="grid h-full mt-8 mx-8 md:mx-20 border-white border-[1px] rounded-2xl overflow-hidden bg-cover md:bg-center bg-no-repeat bg-[url('/images/driving.webp')]" >
