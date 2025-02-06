@@ -84,6 +84,10 @@ Cada vez que se hace un **merge de `develop` a `main`**, la versión en producci
 ### **4️⃣  Carga de Datos con SWR**
 - `CryptoTicker.tsx` usa `useSWR` para obtener datos de `/api/cryptos`.
 - Actualización automática cada 5 minutos (`refreshInterval: 300000`)
+
+## Page Speed Insigths
+- https://pagespeed.web.dev/analysis/https-vyrtiummedia-vercel-app/k8g8jc7g1r?form_factor=desktop 
+
 ## Authors
 
 - [@camiloparrax8](https://github.com/camiloparrax8)
