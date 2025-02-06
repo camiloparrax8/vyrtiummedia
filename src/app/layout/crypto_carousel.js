@@ -38,7 +38,7 @@ export default function CryptoCarousel() {
   // Duplicamos solo si hay menos de 12 criptos
   const duplicatedCryptos = cryptos.length >= 12
   ? cryptos
-  : Array.from({ length: Math.ceil(12 / cryptos.length) }, () => cryptos).flat();
+  : Array.from({ length: Math.ceil(22 / cryptos.length) }, () => cryptos).flat();
 
 
   return (
