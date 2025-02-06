@@ -2,11 +2,7 @@ import Image from "next/image";
 import Title from "./title";
 
 
-export default function SectionTitle({ title, highlight, icon_url }) {
-   
-    
-
-
+export default function SectionTitle({ title, highlight, icon_url }) {  
     return (
         <div className="w-full">
             <div className="flex flex-row gap-2 md:gap-4 items-center justify-between mb-10">
